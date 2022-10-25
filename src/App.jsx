@@ -1,12 +1,12 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Contact from './Component/Contact';
-import About from './Component/About';
-import Skills from './Component/Skills';
-import Projects from './Component/Projects';
+import Contact from './Component/contact/Contact';
+import About from './Component/about/About';
+import Skills from './Component/skill/Skills';
+import Projects from './Component/project/Projects';
 import Portal from './Component/Portal';
-import MainPage from './Component/MainPage';
+import MainPage from './Component/Home/MainPage';
 
 function App() {
   return (
