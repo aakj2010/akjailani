@@ -1,12 +1,7 @@
 import React from "react";
 import "./Contact.css";
-// import { MdLocationOn, MdEmail } from 'react-icons/md'
-// import { FaLinkedin } from 'react-icons/fa'
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { Container } from "react-bootstrap";
-// import { faGithub, faEnvelope } from "@fortawesome/free-brands-svg-icons";
-// import { solid, regular, brands } from '@fortawesome/fontawesome-svg-core/import.macro'
-// import { BsFillAlarmFill } from "react-icons/bs";
+import { FaLinkedin, FaGithub } from 'react-icons/fa'
+
 
 function Contact() {
   return (
@@ -14,14 +9,13 @@ function Contact() {
       <div class="container">
         <br />
         <br />
-        <br />
         <h2 class="text-center">
           <u>Contact</u>
         </h2>
-        <br /><br />
+        <br /><br /> <br />
         <div class="row contact ">
           <div className="col-lg-5 col-12 ">
-            <br />
+            <br /><br />
             <div className="fw-bolder">
               <p><u>Get in Touch</u></p>
             </div>
@@ -31,24 +25,16 @@ function Contact() {
             <div className=" fw-bold cont">
               <p>Email : dev.jailani@gmail.com</p>
             </div>
-
-
             <div class="col-md-10 col-lg-5 col-xl-7">
               <ul class="list-inline text-center cont">
                 <li class="list-inline-item">
-                  <a href="#!">
-                    <span class="fa-stack fa-lg">
-                      <i class="fas fa-circle fa-stack-2x"></i>
-                      <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
-                    </span>
+                  <a href="https://github.com/aakj2010" target="_blank" className="social">
+                    <FaGithub />
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="#!">
-                    <span class="fa-stack fa-lg">
-                      <i class="fas fa-circle fa-stack-2x"></i>
-                      <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                    </span>
+                  <a href="https://www.linkedin.com/in/devakjailani/" target="_blank" className="social">
+                    <FaLinkedin />
                   </a>
                 </li>
               </ul>
@@ -75,7 +61,7 @@ function Contact() {
             </div>
 
             <div>
-              <a  href="#home">
+              <a href="mailto:dev.jailani@gmail.com?subject='Hiring For job'&body={body}">
                 <button type="submit" className="btn btn-primary"> Send </button>
               </a>
             </div>

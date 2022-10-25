@@ -16,7 +16,12 @@ h1 {
 #p:hover {
   color: #ffd700;
 }
-
+#aboutp{
+  font-size: 1rem;
+}
+.HTML{
+  height: 5rem;
+}
 .btn {
   border: 2px solid black;
   border-radius: 5px;
@@ -26,6 +31,12 @@ h1 {
   font-size: 16px;
   cursor: pointer;
 }
+a{
+  color: black;
+}
+a:hover{
+  color: #ffd700;
+}
 .btn:hover {
   border: 2px solid #ffd700;
   background-color: white;
@@ -34,7 +45,7 @@ h1 {
 .socialicons {
   padding: 6px;
   color: black;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 .socialicons:hover {

@@ -132,9 +132,7 @@ nav li:hover{
   overflow-x: hidden;
   padding-top: 20px;
 }
-p{
-    /* font-size: 10px; */
-}
+
 ul {
   list-style: none;
 }
@@ -151,7 +149,7 @@ ul {
   color: #000;
 }
 span{
-    padding: 6px;
+    padding: 4px;
 }
 .social a{
     display: flex;
@@ -162,7 +160,7 @@ span{
   padding: 0px 10px;
 }
 button{
-    padding: 4px;
+    padding: 2px;
     color: #818181;
     border: none;
     background-color: #fff;

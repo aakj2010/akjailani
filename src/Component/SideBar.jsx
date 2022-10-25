@@ -12,23 +12,26 @@ function SideBar() {
     return (
         <>
             <div>
-                
+
                 <nav className='sidenav'>
-                <ul>
-                    <h4>AK Jailani</h4>
-                    <p>MERN Stack Devoloper</p>
-                </ul>
+                    <ul>
+                    <Link to='/'><h4>AK Jailani</h4></Link>    
+                    </ul>
                     <ul>
                         <Link to='/'>Home</Link>
                         <Link to='/portal/about'>About</Link>
                         <Link to='/portal/skill'>Skills</Link>
-                        <Link to='/portal/project'>Project </Link>
+                        <Link to='/portal/project'>Projects </Link>
                         <Link to='/portal/contact'>Contact</Link>
-                        <button href="#!" className='social'>
-                            <span className='' ><FaGithub /></span>
+                        <button className='social'>
+                            <a href="https://github.com/aakj2010" target="_blank" className="">
+                                <span className='' ><FaGithub /></span>
+                            </a>
                         </button>
-                        <button href="#!" className='social'>
-                            <span className=''><FaLinkedin /></span>
+                        <button className='social'>
+                            <a href="https://www.linkedin.com/in/devakjailani/" target="_blank" className="">
+                                <span className=''><FaLinkedin /></span>
+                            </a>
                         </button>
 
                     </ul>

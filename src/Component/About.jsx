@@ -4,14 +4,13 @@ import './About.css'
 function About() {
   return (
     <section id="about">
-      <h2 class="text-center mt-5"><u>About</u></h2>
-      <div class="container">
+      <h2 className="text-center mt-5"><u>About</u></h2>
+      <div className="container">
         <br />
         <br />
         <br />
-        <br />
-        <div class="row">
-          <div class="col-lg-6 col-10">
+        <div className="row">
+          <div className="col-lg-6 col-10">
             <svg
               id="fe80fb2b-bcaf-407e-919b-306adc32f78b"
               data-name="Layer 1"
@@ -306,19 +305,21 @@ function About() {
             </svg>
           </div>
 
-          <div class="col-lg-6 col-10">
+          <div className="col-lg-6 col-10">
             <br />
-            <h3>
-              I am <span class="head_title-color"> Ak Jailani,</span>
+            <h3 id="abouth3">
+              I am <span className="head_title-color"> Ak Jailani,</span>
             </h3>
             <br />
-            <p>
-              MERN stack Devoloper adipisicing elit. Facere
-              commodi doloremque distinctio alias, porro veritatis quo nam
-              explicabo non sit aperiam ullam atque delectus nulla modi, magnam
-              beatae quasi, vitae deleniti? Sunt eius impedit, debitis tempore,
-              repudiandae consectetur quod voluptates neque odio doloremque
-              asperiores! Itaque est doloribus pariatur tenetur quaerat.
+            <p id="aboutp">
+              An aspiring developer with a degree in B.Sc., Computer science.
+              I Started off my self-learning journey with online tutorials
+              Google, YouTube, Learnmall, SoloLearn, etc and take a step
+              further and Enrolled in the GUVI IIT MADRAS Fullstack
+              developer Nanodegree Program which involved extensive
+              programming and real world projects. Later, I learned MERN
+              Stack From Guvi and built an Website using React JS, Node,
+              Express Js, MongoDB.
             </p>
           </div>
         </div>

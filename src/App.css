@@ -26,8 +26,12 @@ h1{
 #skill{
   padding-left: 3rem;
 }
-#about{
-  padding-left: 6rem;
+#aboutp{
+  padding-left: 2rem;
+  font-size: 1rem;
+}
+#abouth3{
+  padding-left: 2rem;
 }
 .arrow {
   border: solid black;

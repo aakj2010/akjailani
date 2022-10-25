@@ -47,7 +47,10 @@ function MainPage() {
                     <p id='p'>
                         MERN Stack Devoloper
                     </p>
-                    <button type="button" className="btn btn-outline-dark text-bold">Contact</button>
+                    {/* <button type="button" className="btn btn-outline-dark text-bold">Resume</button> */}
+                    <button type="button" className="btn btn-outline-dark text-bold">
+                        <a href={require("../Asset/Resume.pdf")} download="Resume">Resume</a>
+                    </button>
                     <br />
 
                     <div className="container px-4 px-lg-5">
@@ -55,21 +58,13 @@ function MainPage() {
                             <div className="col-md-10 col-lg-8 col-xl-7">
                                 <ul className="list-inline text-center">
                                     <li className="list-inline-item">
-                                        <a href="#!" className='socialicons'>
-                                            {/* <span className="fa-stack fa-lg"> */}
-                                                <FaGithub />
-                                                {/* <i className="fas fa-circle fa-stack-2x"></i>
-                                                <i className="fab fa-linkedin fa-stack-1x fa-inverse"></i> */}
-                                            {/* </span> */}
+                                        <a href="https://github.com/aakj2010" target="_blank" className='socialicons'>
+                                            <FaGithub />
                                         </a>
                                     </li>
                                     <li className="list-inline-item">
-                                        <a href="#!" className='socialicons' >
-                                            {/* <span className="fa-stack fa-lg"> */}
-                                                <FaLinkedin />
-                                                {/* <i className="fas fa-circle fa-stack-2x"></i>
-                                                <i className="fab fa-github fa-stack-1x fa-inverse"></i> */}
-                                            {/* </span> */}
+                                        <a href="https://www.linkedin.com/in/devakjailani/" target="_blank" className='socialicons' >
+                                            <FaLinkedin />
                                         </a>
                                     </li>
                                 </ul>
