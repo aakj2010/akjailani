@@ -49,7 +49,7 @@ function MainPage() {
                     </p>
                     {/* <button type="button" className="btn btn-outline-dark text-bold">Resume</button> */}
                     <button type="button" className="btn btn-outline-dark text-bold">
-                        <a href={require("../Asset/Resume.pdf")} download="Resume">Resume</a>
+                        <a href={require("../Asset/Resume.pdf")} className="resume" download="Resume">Resume</a>
                     </button>
                     <br />
 
