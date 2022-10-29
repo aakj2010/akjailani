@@ -14,6 +14,7 @@ import github from '../Asset/github.png'
 import ex from '../Asset/ex.png'
 import heroku from '../Asset/heroku.png'
 import netlify from '../Asset/netlify.png'
+import AWS from '../Asset/AWS.png'
 
 
 function Skills() {
@@ -61,6 +62,9 @@ function Skills() {
         },
         {
             icon: <img src={netlify} alt="" className="HTML" />
+        },
+        {
+            icon: <img src={AWS} alt="" className="HTML" />
         }
     ]
 
