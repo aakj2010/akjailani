@@ -1,0 +1,145 @@
+.project {
+  width: 90%;
+  height: 100vh;
+  margin-left: 12rem;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+.logo{
+    font-size: 3rem;
+}
+.title {
+  color: #0f0f0f;
+  margin-top: 2rem;
+}
+.project_list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    margin-right: 2rem;
+}
+
+.container_project {
+  font-size: 14px;
+  /* font-weight: 500; */
+  padding: 2em;
+  /* margin: 1rem; */
+  margin-left: 6rem !important;
+  margin-top: 1.5rem;
+  /* margin-right: 1rem; */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaa;
+  font-family: "Poppins", sans-serif;
+  width: 25rem;
+  /* min-height: 12rem; */
+  border: 2px solid #000;
+  border-radius: 2%;
+  /* background: linear-gradient(145deg, #ffffff, #cacbcf);
+  border-radius: 5%;
+  box-shadow: inset 9.91px 9.91px 15px #77787a,
+    inset -9.91px -9.91px 15px #ffffff; */
+  /* border-radius: 20px;
+  background: #444343;
+  box-shadow: inset 35px 35px 70px #050404, inset -35px -35px 70px #130e0e; */
+}
+
+.section {
+  margin-left: 240px;
+  background-color: black;
+  display: flex;
+  padding: 1em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #e60023;
+  text-align: center;
+  margin-top: 1rem;
+}
+.btn-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* align-content: center; */
+  /* align-self: center; */
+}
+.project_btn {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  padding: 4px 4px;
+  margin: 16px 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.project_btn:hover {
+  border: 2px solid #ffd700;
+  background-color: white;
+  color: #ffd700;
+}
+.project_description {
+  font-size: 14px;
+  color: #000;
+}
+
+.banner-img1 {
+  /* background-image: url("../Asset/Pinterest.png"); */
+  /* height: 12rem; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  /* margin-left: 1rem; */
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+/*
+.testimonials .banner-img2 {
+  background-image: url(https://img.freepik.com/free-vector/blog-main-page-template_53876-88255.jpg?w=740);
+  height: 12rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.testimonials .banner-img3 {
+  background-image: url(https://img.freepik.com/free-psd/youtube-video-player-mockup-3d-style_204659-77.jpg?w=740);
+  height: 12rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.testimonials .banner-img4 {
+  background-image: url(https://raw.githubusercontent.com/Thiru-cse/Fullstack-Developer/main/My-Project-Screenshots/Thiru-Weather%20Si.png);
+  height: 12rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.testimonials .banner-img5 {
+  background-image: url(https://img.freepik.com/free-vector/organic-flat-blog-post-illustration-with-people_23-2148955260.jpg?w=740);
+  height: 12rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.testimonials .banner-img6 {
+  background-image: url(https://img.freepik.com/free-vector/friends-video-calling-spending-good-time_23-2148498387.jpg?w=740);
+  height: 12rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */

@@ -71,7 +71,7 @@ function Skills() {
     return (
         <>
             {/* <SideBar /> */}
-            <section id="skill">
+            <section className="skill">
                 <h2 class="text-center mt-5"><u>Skills</u></h2>
                 <div class="container">
                     {/* <!-- p-lg-3 p-0 mb-lg-3 mb-0 --> */}
