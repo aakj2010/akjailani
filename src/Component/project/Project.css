@@ -6,20 +6,20 @@
   justify-content: center;
   align-items: center;
 }
-.logo{
-    font-size: 3rem;
+.logo {
+  font-size: 3rem;
 }
 .title {
   color: #0f0f0f;
   margin-top: 2rem;
 }
-.project_list{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 2rem;
-    margin-left: 5rem;
-    margin-right: 2rem;
+.project_list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  margin-left: 5rem;
+  margin-right: 2rem;
 }
 
 .container_project {
@@ -62,6 +62,7 @@
   color: #e60023;
   text-align: center;
   margin-top: 1rem;
+  /* text-shadow: 0 0 3px #ff0000, 0 0 5px #000; */
 }
 .btn-cont {
   display: flex;

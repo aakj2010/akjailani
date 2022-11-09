@@ -1,6 +1,8 @@
 import React from 'react'
 import Pinterest from '../Asset/Pinterest.png'
 import pinterestbg from '../Asset/pinterestbg.png'
+import StackOverflow from '../Asset/StackOverflow.png'
+import stack from '../Asset/stack.jpg'
 import favicon from '../Asset/favicon.png'
 import './Project.css'
 import { FaGithub, FaOpenid, FaPinterest, FaStackOverflow } from 'react-icons/fa'
@@ -15,16 +17,18 @@ function Projects() {
       </div>
       <div className='project_list'>
 
-        <div className="container_project">
+        <div className="container_project" 
+        // style={{backgroundImage: `url(${pinterestbg})`,backgroundRepeat:"no-repeat", backgroundSize:"contain" }}
+        >
           <div className="banner-img1 ">
             {/* <img src={pinterestbg} alt="" /> */}
             {/* <img src={favicon} alt="" /> */}
-            <span className='logo ' style={{ color: '#e60023' }}>
+            <span className='logo ' style={{ color: '#e60023'}}>
               <FaPinterest />
             </span>
 
           </div>
-          <h2 className="name">
+          <h2 className="name" style={{textShadow:'0 0 3px #FF0000, 0 0 5px #0000FF;'}}>
             Pinterest Clone
           </h2>
           <div className="btn-cont">
@@ -80,7 +84,9 @@ function Projects() {
           </p>
         </div>
 
-        <div className="container_project">
+        <div className="container_project" 
+        // style={{backgroundImage: `url(${stack})`,backgroundRepeat:"no-repeat", backgroundSize:"contain"}}
+        >
           <div className="banner-img1">
             <span className='logo ' style={{ color: '#f48024' }}>
               <FaStackOverflow />
